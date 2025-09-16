@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hevertonvp\\Desktop\\biblioteca\\biblioteca-backend\\biblioteca-backend.csproj": {}
+    "C:\\Users\\Aluno1\\Documents\\GitHub\\biblioteca-backend\\biblioteca-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hevertonvp\\Desktop\\biblioteca\\biblioteca-backend\\biblioteca-backend.csproj": {
+    "C:\\Users\\Aluno1\\Documents\\GitHub\\biblioteca-backend\\biblioteca-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hevertonvp\\Desktop\\biblioteca\\biblioteca-backend\\biblioteca-backend.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno1\\Documents\\GitHub\\biblioteca-backend\\biblioteca-backend.csproj",
         "projectName": "biblioteca-backend",
-        "projectPath": "C:\\Users\\hevertonvp\\Desktop\\biblioteca\\biblioteca-backend\\biblioteca-backend.csproj",
-        "packagesPath": "C:\\Users\\hevertonvp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hevertonvp\\Desktop\\biblioteca\\biblioteca-backend\\obj\\",
+        "projectPath": "C:\\Users\\Aluno1\\Documents\\GitHub\\biblioteca-backend\\biblioteca-backend.csproj",
+        "packagesPath": "C:\\Users\\Aluno1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno1\\Documents\\GitHub\\biblioteca-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hevertonvp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Aluno1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -86,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
