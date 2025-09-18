@@ -220,6 +220,10 @@ namespace biblioteca_backend.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Phone")
                         .HasColumnType("longtext");
 
@@ -229,6 +233,10 @@ namespace biblioteca_backend.Migrations
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

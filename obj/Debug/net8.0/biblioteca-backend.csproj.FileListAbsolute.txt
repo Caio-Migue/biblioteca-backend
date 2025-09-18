@@ -302,3 +302,4 @@ c:\Users\Aluno1\Documents\GitHub\biblioteca-backend\obj\Debug\net8.0\refint\bibl
 c:\Users\Aluno1\Documents\GitHub\biblioteca-backend\obj\Debug\net8.0\biblioteca-backend.pdb
 C:\Users\Aluno1\Documents\GitHub\biblioteca-backend\obj\Debug\net8.0\biblioteca-backend.genruntimeconfig.cache
 C:\Users\Aluno1\Documents\GitHub\biblioteca-backend\obj\Debug\net8.0\ref\biblioteca-backend.dll
+c:\Users\Aluno1\Documents\GitHub\biblioteca-backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

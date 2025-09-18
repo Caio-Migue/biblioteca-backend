@@ -28,6 +28,9 @@ public class User
     [Required(ErrorMessage = "O papel é obrigatório.")]
     public EUserRole Role { get; set; } // Atributo para definir o papel do usuário
 
+    public string Username { get; set; }
+    public string Password { get; set; }
+    // Adicione outros campos conforme necessário (ex: Role, Email)
 
     public User()
     {

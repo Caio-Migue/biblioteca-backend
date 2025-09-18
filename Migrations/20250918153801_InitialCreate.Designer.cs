@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace biblioteca_backend.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20241019214331_InitialCreate")]
+    [Migration("20250918153801_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -223,6 +223,10 @@ namespace biblioteca_backend.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Phone")
                         .HasColumnType("longtext");
 
@@ -232,6 +236,10 @@ namespace biblioteca_backend.Migrations
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
