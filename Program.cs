@@ -17,8 +17,9 @@ builder.Services.AddCors(options =>
                   .AllowAnyHeader();
         });
 });
-
+var teste = 0;
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
