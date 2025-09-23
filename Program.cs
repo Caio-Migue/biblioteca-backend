@@ -18,7 +18,6 @@ builder.Services.AddCors(options =>
         });
 });
 
-// Configurar autenticação JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
