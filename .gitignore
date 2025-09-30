@@ -1,0 +1,15 @@
+# Arquivos temporários de build do .NET
+bin/
+obj/
+
+# Arquivos gerados pelo compilador
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Outros arquivos temporários específicos do Visual Studio
+.vs/
+.vscode/
+bin/Debug/net8.0/biblioteca-backend.dll
+*.exe
